@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Valentine's Day</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src = "scripts.js"></script>
+</head>
+<body>
+    <h1 id = "title">VALENTINE'S DAY</h1>
+    <div id = "first-question-container">
+        <h1 id = "title-question">BE MY VALENTINE?</h1>
+        <div id = "yes-no-container">
+            <button id = "yes-button" onclick="clickedYes()">YES</button>
+            <button id = "no-button" onclick="clickedNo()">NO</button>
+        </div>
+    </div>
+    <div id = "second-question-container">
+        <h1 id = "second-title-question">ARE YOU SURE?</h1>
+        <div id = "second-yes-no-container">
+            <button id = "second-yes-button" disabled onclick="secondClickedYes()">YES</button>
+            <button id = "second-no-button" disabled onclick="secondClickedNo()">NO</button>
+        </div>
+    </div>
+    <div id = "third-question-container">
+        <h1 id = "third-title-question">ARE YOU REALLY, REALLY SURE?</h1>
+        <div id = "third-yes-no-container">
+            <button id = "third-yes-button" disabled onclick="thirdClickedYes()">YES</button>
+            <button id = "third-no-button" disabled onclick="thirdClickedNo()">NO</button>
+        </div>
+    </div>
+    <div id = "fourth-question-container">
+        <h1 id = "fourth-title-question">TUOMET ACIU, JOG SKYREI LAIKO ATSAKYTI I KLAUSIMUS❤️</h1>
+    </div>
+    <div id ="first-yes-container">
+        <h1 id = "first-yes-text">GERAS, NESITIKEJAU</h1>
+    </div>
+    <div id ="extra-yes-container">
+        <h1 id = "extra-yes-text">TUOMET SUDELIOKIM MUSU VALENTINO DIENA❤️</h1>
+    </div>
+    <div id = "first-quiz-question">
+        <div class="first-first" disabled onclick="firstFirstAnswer()">
+        </div>
+        <div class="first-second" disabled onclick="firstSecondAnswer()">
+        </div>
+        <div class="first-third" disabled onclick="firstThirdAnswer()">
+        </div>
+        <div class="first-fourth" disabled onclick="firstFourthAnswer()">
+        </div>
+    </div>
+    <div id = "second-quiz-question">
+        <div class="second-first" disabled onclick="secondFirstAnswer()">
+        </div>
+        <div class="second-second" disabled onclick="secondSecondAnswer()">
+        </div>
+        <div class="second-third" disabled onclick="secondThirdAnswer()">
+        </div>
+        <div class="second-fourth" disabled onclick="secondFourthAnswer()">
+        </div>
+    </div>
+    <div id = "third-quiz-question">
+        <div class="third-first" disabled onclick="thirdFirstAnswer()">
+        </div>
+        <div class="third-second" disabled onclick="thirdSecondAnswer()">
+        </div>
+        <div class="third-third" disabled onclick="thirdThirdAnswer()">
+        </div>
+        <div class="third-fourth" disabled onclick="thirdFourthAnswer()">
+        </div>
+    </div>
+    <div id = "fourth-quiz-question">
+        <div class="fourth-first" disabled onclick="fourthFirstAnswer()">
+        </div>
+        <div class="fourth-second" disabled onclick="fourthSecondAnswer()">
+        </div>
+        <div class="fourth-third" disabled onclick="fourthThirdAnswer()">
+        </div>
+        <div class="fourth-fourth" disabled onclick="fourthFourthAnswer()">
+        </div>
+    </div>
+    <div id = "fifth-quiz-question">
+        <h1 id = "fifth-quiz-text">SPECIAL REQUESTS?</h1>
+        <input type="text" id="answer-input" placeholder="TAVO NORAI">
+        <button id = "fifth-button" disabled onclick="fifthAnswer()">PATEIKTI</button>
+    </div>
+    <div id = "last-question">
+        <h1 id = "last-question-text">JEIGU ESI PATENKINTA SAVO ATSAKYMAIS, PASPAUSK❤️</h1>
+        <button id = "last-button" disabled onclick="sixthAnswer()">❤️</button>
+    </div>
+</body>
