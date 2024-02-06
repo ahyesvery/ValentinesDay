@@ -1,5 +1,5 @@
 #title {
-    font-family: "Bradley Hand ITC";
+    font-family: "Bradley Hand Bold";
     text-align: center;
     color: pink;
     align-items:center;
@@ -10,7 +10,7 @@
 
 #title-question {
     font-size: 30px;
-    font-family: "Berlin Sans FB";
+    font-family: "Optima ExtraBlack";
     color: rgb(237, 46, 186);
     font-weight: 100;
     display: flex;
