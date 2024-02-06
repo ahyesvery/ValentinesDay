@@ -6,15 +6,22 @@
     <title>Valentine's Day</title>
     <link rel="stylesheet" href="styles.css">
     <script src = "scripts.js"></script>
+    <style>
+        #random-gif {
+            position: fixed;
+            pointer-events: none;
+        }
+    </style>
 </head>
 <body>
-    <h1 id = "title">VALENTINE'S DAY labas</h1>
+    <h1 id = "title">VALENTINE'S DAY</h1>
     <div id = "first-question-container">
         <h1 id = "title-question">BE MY VALENTINE?</h1>
         <div id = "yes-no-container">
             <button id = "yes-button" onclick="clickedYes()">YES</button>
             <button id = "no-button" onclick="clickedNo()">NO</button>
         </div>
+        <img id = "first-kitten" src="images/kitties/first.gif">
     </div>
     <div id = "second-question-container">
         <h1 id = "second-title-question">ARE YOU SURE?</h1>
@@ -22,6 +29,7 @@
             <button id = "second-yes-button" disabled onclick="secondClickedYes()">YES</button>
             <button id = "second-no-button" disabled onclick="secondClickedNo()">NO</button>
         </div>
+        <img id = "second-kitten" src="images//kitties/second.gif">
     </div>
     <div id = "third-question-container">
         <h1 id = "third-title-question">ARE YOU REALLY, REALLY SURE?</h1>
@@ -29,6 +37,7 @@
             <button id = "third-yes-button" disabled onclick="thirdClickedYes()">YES</button>
             <button id = "third-no-button" disabled onclick="thirdClickedNo()">NO</button>
         </div>
+        <img id = "third-kitten" src="images//kitties/third.gif">
     </div>
     <div id = "fourth-question-container">
         <h1 id = "fourth-title-question">TUOMET ACIU, JOG SKYREI LAIKO ATSAKYTI I KLAUSIMUS❤️</h1>
@@ -83,9 +92,17 @@
         <h1 id = "fifth-quiz-text">SPECIAL REQUESTS?</h1>
         <input type="text" id="answer-input" placeholder="TAVO NORAI">
         <button id = "fifth-button" disabled onclick="fifthAnswer()">PATEIKTI</button>
+        <img id = "fourth-kitten" src="images//kitties/fourth.gif">
     </div>
     <div id = "last-question">
         <h1 id = "last-question-text">JEIGU ESI PATENKINTA SAVO ATSAKYMAIS, PASPAUSK❤️</h1>
         <button id = "last-button" disabled onclick="sixthAnswer()">❤️</button>
+        <img id = "fifth-kitten" src="images//kitties/fifth.gif">
+    </div>
+    <div id = "last-kitten">
+        <img src="images/kitties/last.gif">
+    </div>
+    <div id = "random-gif">
+        <img src="images//kitties/popping.gif">
     </div>
 </body>

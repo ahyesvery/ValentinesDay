@@ -25,6 +25,34 @@ function fadeInElementById(elementId) {
     }
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    var randomGifContainer = document.getElementById("random-gif");
+
+    function getRandomPosition() {
+        var padding = 500;
+
+        var maxX = window.innerWidth - randomGifContainer.clientWidth - padding;
+        var maxY = window.innerHeight - randomGifContainer.clientHeight - padding;
+
+        var randomX = Math.floor(Math.random() * maxX) + padding / 2;
+        var randomY = Math.floor(Math.random() * maxY) + padding / 2;
+
+        return { x: randomX, y: randomY };
+    }
+
+    function showRandomGif() {
+        var randomPosition = getRandomPosition();
+
+        randomGifContainer.style.left = randomPosition.x + "px";
+        randomGifContainer.style.top = randomPosition.y + "px";
+        randomGifContainer.style.display = "block";
+    }
+
+    showRandomGif();
+
+    setInterval(showRandomGif, 1100);
+});
+
 //no
 
 let beMyValentine = "";
@@ -32,6 +60,7 @@ let areYouSure = "";
 let areYouReallyReallySure = "";
 
 //yes
+
 let vieta = "";
 let saldainiai = "";
 let filmas = "";
@@ -259,4 +288,5 @@ function sixthAnswer() {
     sendDiscord();
     fadeOutElementById("last-question")
     fadeOutElementById("fourth-question-container")
+    fadeInElementById("last-kitten")
 }
