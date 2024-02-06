@@ -30,6 +30,7 @@ display: flex;
 }
 
 #yes-button {
+    color:inherit;
     background-color: rgb(88, 188, 88);
     width: 30%;
     max-width: 150px;
@@ -38,11 +39,13 @@ display: flex;
 }
 
 #yes-button:hover {
+    color:inherit;
     background-color: rgb(48, 102, 48);
     color: white;
 }
 
 #no-button {
+    color:inherit;
     background-color: rgb(187, 46, 46);
     width: 30%;
     max-width: 150px;
@@ -51,6 +54,7 @@ display: flex;
 }
 
 #no-button:hover {
+    color:inherit;
     background-color: rgb(87, 11, 11);
     color: white;
 }
@@ -76,6 +80,7 @@ display: flex;
 }
 
 #second-yes-button {
+    color:inherit;
     background-color: rgb(88, 188, 88);
     width: 30%;
     max-width: 150px;
@@ -84,11 +89,13 @@ display: flex;
 }
 
 #second-yes-button:hover {
+    color:inherit;
     background-color: rgb(48, 102, 48);
     color: white;
 }
 
 #second-no-button {
+    color:inherit;
     background-color: rgb(187, 46, 46);
     width: 30%;
     max-width: 150px;
@@ -97,6 +104,7 @@ display: flex;
 }
 
 #second-no-button:hover {
+    color:inherit;
     background-color: rgb(87, 11, 11);
     color: white;
 }
@@ -122,6 +130,7 @@ display: flex;
 }
 
 #third-yes-button {
+    color:inherit;
     background-color: rgb(88, 188, 88);
     width: 30%;
     max-width: 150px;
@@ -130,11 +139,13 @@ display: flex;
 }
 
 #third-yes-button:hover {
+    color:inherit;
     background-color: rgb(48, 102, 48);
     color: white;
 }
 
 #third-no-button {
+    color:inherit;
     background-color: rgb(187, 46, 46);
     width: 30%;
     max-width: 150px;
@@ -143,6 +154,7 @@ display: flex;
 }
 
 #third-no-button:hover {
+    color:inherit;
     background-color: rgb(87, 11, 11);
     color: white;
 }
@@ -519,6 +531,7 @@ pointer-events: none;
 }
 
 #fifth-button {
+    color:inherit;
     background-color: rgb(237, 46, 186);
     color: white;
     border: none;
@@ -530,6 +543,7 @@ pointer-events: none;
 }
 
 #fifth-button:hover {
+    color:inherit;
     background-color: rgb(167, 16, 130);
 }
 
@@ -558,6 +572,7 @@ pointer-events: none;
 }
 
 #last-button {
+    color:inherit;
     background-color: rgb(237, 46, 186);
     color: white;
     border: none;
@@ -569,5 +584,6 @@ pointer-events: none;
 }
 
 #last-button:hover {
+    color:inherit;
     background-color: rgb(167, 16, 130);
 }
