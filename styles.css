@@ -1,0 +1,573 @@
+#title {
+    font-family: "Bradley Hand ITC";
+    text-align: center;
+    color: pink;
+    align-items:center;
+    justify-content:center;
+    font-size: 60px;
+    display: block;
+}
+
+#title-question {
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+    color: rgb(237, 46, 186);
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#first-question-container {
+    transition: opacity 0.5s ease;
+}
+
+#yes-no-container {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#yes-button {
+    background-color: rgb(88, 188, 88);
+    width: 30%;
+    max-width: 150px;
+    height: 50px;
+    font-size: 3vh;
+}
+
+#yes-button:hover {
+    background-color: rgb(48, 102, 48);
+    color: white;
+}
+
+#no-button {
+    background-color: rgb(187, 46, 46);
+    width: 30%;
+    max-width: 150px;
+    height: 50px;
+    font-size: 3vh;
+}
+
+#no-button:hover {
+    background-color: rgb(87, 11, 11);
+    color: white;
+}
+
+#second-question-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#second-title-question {
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    color: rgb(237, 46, 186);
+    font-weight: 100;
+}
+
+#second-yes-no-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#second-yes-button {
+    background-color: rgb(88, 188, 88);
+    width: 30%;
+    max-width: 150px;
+    height: 50px;
+    font-size: 3vh;
+}
+
+#second-yes-button:hover {
+    background-color: rgb(48, 102, 48);
+    color: white;
+}
+
+#second-no-button {
+    background-color: rgb(187, 46, 46);
+    width: 30%;
+    max-width: 150px;
+    height: 50px;
+    font-size: 3vh;
+}
+
+#second-no-button:hover {
+    background-color: rgb(87, 11, 11);
+    color: white;
+}
+
+#third-question-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#third-title-question {
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    color: rgb(237, 46, 186);
+    font-weight: 100;
+}
+
+#third-yes-no-container {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#third-yes-button {
+    background-color: rgb(88, 188, 88);
+    width: 30%;
+    max-width: 150px;
+    height: 50px;
+    font-size: 3vh;
+}
+
+#third-yes-button:hover {
+    background-color: rgb(48, 102, 48);
+    color: white;
+}
+
+#third-no-button {
+    background-color: rgb(187, 46, 46);
+    width: 30%;
+    max-width: 150px;
+    height: 50px;
+    font-size: 3vh;
+}
+
+#third-no-button:hover {
+    background-color: rgb(87, 11, 11);
+    color: white;
+}
+
+#fourth-title-question {
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    color: rgb(237, 46, 186);
+    font-weight: 100;
+}
+
+#fourth-question-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#first-yes-text {
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    color: rgb(237, 46, 186);
+    font-weight: 100;
+}
+
+#first-yes-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#extra-yes-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#extra-yes-text {
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    color: rgb(237, 46, 186);
+    font-weight: 100;
+}
+
+#first-quiz-question{
+margin: 20px auto;
+width:400px;
+height:400px;
+background-color:#fff;
+display:grid;
+grid-template-columns: 200px 200px;
+grid-row: auto auto;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+opacity: 0;
+transition: opacity 0.5s ease;
+pointer-events: none;
+.first-first{
+    background-image: url(images/first/cafe.jpg);
+    background-size: cover;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.first-second{
+    background-image: url(images/first/kfc.jpg);
+    background-size: cover;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.first-third{
+    background-image: url(images/first/netflix.jpg);
+    background-size: cover;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.first-fourth{
+    background-image: url(images/first/park.jpg);
+    background-size: cover;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.first-first:hover,
+.first-second:hover,
+.first-third:hover,
+.first-fourth:hover {
+    transform: scale(1.1);
+}
+}
+
+#second-quiz-question{
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    .second-first{
+        background-image: url(images/second/ferrero.jpg);
+        background-size: cover;
+        padding:20px;
+        border-radius:10px;
+        color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:40px;
+        font-family:sans-serif;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+    .second-second{
+        background-image: url(images/second/milka.jpg);
+        background-size: cover;
+        padding:20px;
+        border-radius:10px;
+        color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:40px;
+        font-family:sans-serif;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+    .second-third{
+        background-image: url(images/second/raffaello.jpg);
+        background-size: cover;
+        padding:20px;
+        border-radius:10px;
+        color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:40px;
+        font-family:sans-serif;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+    .second-fourth{
+        background-image: url(images/second/X.png);
+        background-size: cover;
+        padding:20px;
+        border-radius:10px;
+        color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:40px;
+        font-family:sans-serif;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+    .second-first:hover,
+    .second-second:hover,
+    .second-third:hover,
+    .second-fourth:hover {
+        transform: scale(1.1);
+    }
+    }
+
+    #third-quiz-question{
+        margin: 20px auto;
+        width:400px;
+        height:400px;
+        background-color:#fff;
+        display:grid;
+        grid-template-columns: 200px 200px;
+        grid-row: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        pointer-events: none;
+        .third-first{
+            background-image: url(images/third/adventure.jpg);
+            background-size: cover;
+            padding:20px;
+            border-radius:10px;
+            color:#fff;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:40px;
+            font-family:sans-serif;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .third-second{
+            background-image: url(images/third/horror.jpg);
+            background-size: cover;
+            padding:20px;
+            border-radius:10px;
+            color:#fff;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:40px;
+            font-family:sans-serif;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .third-third{
+            background-image: url(images/third/romantic.jpg);
+            background-size: cover;
+            padding:20px;
+            border-radius:10px;
+            color:#fff;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:40px;
+            font-family:sans-serif;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .third-fourth{
+            background-image: url(images/third/X.png);
+            background-size: cover;
+            padding:20px;
+            border-radius:10px;
+            color:#fff;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:40px;
+            font-family:sans-serif;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .third-first:hover,
+        .third-second:hover,
+        .third-third:hover,
+        .third-fourth:hover {
+            transform: scale(1.1);
+        }
+        }
+
+        #fourth-quiz-question{
+            margin: 20px auto;
+            width:400px;
+            height:400px;
+            background-color:#fff;
+            display:grid;
+            grid-template-columns: 200px 200px;
+            grid-row: auto auto;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            pointer-events: none;
+            .fourth-first{
+                background-image: url(images/fourth/carnation.jpg);
+                background-size: cover;
+                padding:20px;
+                border-radius:10px;
+                color:#fff;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                font-size:40px;
+                font-family:sans-serif;
+                cursor: pointer;
+                transition: transform 0.2s ease-in-out;
+            }
+            .fourth-second{
+                background-image: url(images/fourth/chrysanthemum.jpg);
+                background-size: cover;
+                padding:20px;
+                border-radius:10px;
+                color:#fff;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                font-size:40px;
+                font-family:sans-serif;
+                cursor: pointer;
+                transition: transform 0.2s ease-in-out;
+            }
+            .fourth-third{
+                background-image: url(images/fourth/roses.png);
+                background-size: cover;
+                padding:20px;
+                border-radius:10px;
+                color:#fff;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                font-size:40px;
+                font-family:sans-serif;
+                cursor: pointer;
+                transition: transform 0.2s ease-in-out;
+            }
+            .fourth-fourth{
+                background-image: url(images/third/X.png);
+                background-size: cover;
+                padding:20px;
+                border-radius:10px;
+                color:#fff;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                font-size:40px;
+                font-family:sans-serif;
+                cursor: pointer;
+                transition: transform 0.2s ease-in-out;
+            }
+            .fourth-first:hover,
+            .fourth-second:hover,
+            .fourth-third:hover,
+            .fourth-fourth:hover {
+                transform: scale(1.1);
+            }
+            }
+
+#fifth-quiz-text {
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    color: rgb(237, 46, 186);
+    font-weight: 100;
+}
+
+#fifth-quiz-question {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: center;
+}
+
+#answer-input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid rgb(237, 46, 186);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#fifth-button {
+    background-color: rgb(237, 46, 186);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#fifth-button:hover {
+    background-color: rgb(167, 16, 130);
+}
+
+#last-question-text {
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    color: rgb(237, 46, 186);
+    font-weight: 100;
+}
+
+#last-question {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: center;
+}
+
+#last-answer-input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid rgb(237, 46, 186);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#last-button {
+    background-color: rgb(237, 46, 186);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#last-button:hover {
+    background-color: rgb(167, 16, 130);
+}
